@@ -1,7 +1,5 @@
 # Unity-websocket-prototype
 
-# Unity-Simple-WebSocket-Client-Server
-
 ## Dependencies
 
 - [websocket-sharp](https://github.com/sta/websocket-sharp)
