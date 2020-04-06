@@ -1,6 +1,6 @@
 import "ws";
 
-const ws = new WebSocket('ws://192.168.1.18:8081');
+const ws = new WebSocket('ws://example.com');
 
 window.addEventListener("deviceorientation", function(event) {
     let x = map(event.beta, -180, 180, 0, 1);
