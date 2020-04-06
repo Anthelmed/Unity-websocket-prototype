@@ -9,7 +9,7 @@ public static class Client
     [RuntimeInitializeOnLoadMethod]
     private static void Start()
     {
-        _webSocket = new WebSocket("ws://192.168.1.18:8081");
+        _webSocket = new WebSocket("ws://example.com");
         ConnectClient();
     }
 
